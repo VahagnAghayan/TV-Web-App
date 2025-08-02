@@ -55,7 +55,7 @@ const TrendingCarousel: React.FC<TrendingCarouselProps> = ({ movies, onMovieClic
         <div 
           ref={scrollRef}
           onScroll={handleScroll}
-          className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth"
+          className="flex gap-5 overflow-x-auto scrollbar-hide scroll-smooth"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {movies.slice(0, 50).map((movie) => (
@@ -67,7 +67,7 @@ const TrendingCarousel: React.FC<TrendingCarouselProps> = ({ movies, onMovieClic
               <img 
                 src={`/assets/${movie.CoverImage}`} 
                 alt={movie.Title}
-                className="w-48 h-72 object-cover rounded-lg"
+                className="w-32 h-72 object-cover rounded-lg"
               />
             </div>
           ))}
