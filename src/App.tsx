@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="relative min-h-screen bg-black">
       <Sidebar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} />
-      <div className={`transition-transform duration-300 ${sidebarOpen ? '' : 'ml-24'}`}>
+      <div className={`transition-transform duration-300 ${sidebarOpen ? '' : 'lg:ml-24'}`}>
         <FeaturedContent selectedMovie={selectedMovie} featuredMovie={featuredMovie} />
         <TrendingCarousel movies={sortedMovies} onMovieClick={selectMovie} />
       </div>

@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/api/axiosInstance.ts","./src/components/Error.tsx","./src/components/FeaturedContent.tsx","./src/components/Loading.tsx","./src/components/Sidebar.tsx","./src/components/TrendingCarousel.tsx","./src/components/VideoPlayer.tsx","./src/hooks/useMovieSelection.ts","./src/types/index.ts"],"version":"5.8.3"}
